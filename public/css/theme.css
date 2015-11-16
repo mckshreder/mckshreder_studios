@@ -4821,7 +4821,7 @@ video {
 }
 .foundry_modal iframe {
   width: 100%;
-  min-height: 400px;
+  min-height: 500px;
 }
 @media all and (min-width: 1500px) {
   .foundry_modal {
