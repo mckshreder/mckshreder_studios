@@ -37,4 +37,7 @@ class PagesController < ApplicationController
 
   def branding
   end
+
+  def inwholesalers
+  end
 end
