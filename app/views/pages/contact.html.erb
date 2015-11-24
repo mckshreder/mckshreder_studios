@@ -1,2 +1,193 @@
-<h1>Pages#contact</h1>
-<p>Find me in app/views/pages/contact.html.erb</p>
+
+        <div class="nav-container">
+            <a id="top"></a>
+            
+            <%= render "partials/main_nav"%>
+        </div>
+        <div class="main-container">
+        <section class="page-title page-title-2 image-bg overlay parallax">
+                <div class="background-image-holder">
+                    <img alt="Background Image" class="background-image" src="https://res.cloudinary.com/mckshreder/image/upload/v1447575028/Luke_backflop_qeywun.jpg" />
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="uppercase mb8">Contact: <br>Plan A Project</h2>
+                            <p class="lead mb0">Let's get to know each other.</p>
+                        </div>
+                        <div class="col-md-6 text-right">
+                            <ol class="breadcrumb breadcrumb-2">
+                                <li>
+                                    <a href="/">Home</a>
+                                </li>
+                                <li>
+                                    <a href="/">Pages</a>
+                                </li>
+                                <li class="active">Plan A Project</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <section>
+            	<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+            		<div class="feature boxed bg-secondary">
+            		<form class="text-center form-email" data-error="There were errors, please check all required fields and try again" data-success="Thanks for taking the time to complete the planner. We'll be in touch shortly!">
+            			<h4 class="uppercase mt48 mt-xs-0">Let's plan your project</h4>
+            			<p class="lead mb64 mb-xs-24">
+            				Share a little detail about your project so we<br /> can tailor the solution that's right for you.
+            			</p>
+            			<div class="overflow-hidden">
+            				<hr>
+            				<h6 class="uppercase">
+            				1. What type of work do you require?
+            				</h6>
+            				<div class="col-sm-3">
+            					<p class="mb16">
+            						Web Design
+            					</p>
+            					<div class="checkbox-option text-left">
+                                    <div class="inner"></div>
+                                    <input type="checkbox" name="webdesign" value="webdesign" />
+                                </div>
+            				</div>
+            				<div class="col-sm-3">
+            					<p class="mb16">
+            						Branding & Identity
+            					</p>
+            					<div class="checkbox-option text-left">
+                                    <div class="inner"></div>
+                                    <input type="checkbox" name="branding" value="branding" />
+                                </div>
+            				</div>
+            				<div class="col-sm-3">
+            					<p class="mb16">
+            						Print Marketing
+            					</p>
+            					<div class="checkbox-option text-left">
+                                    <div class="inner"></div>
+                                    <input type="checkbox" name="print" value="print" />
+                                </div>
+            				</div>
+            				<div class="col-sm-3">
+            					<p class="mb16">
+            						Photography
+            					</p>
+            					<div class="checkbox-option text-left">
+                                    <div class="inner"></div>
+                                    <input type="checkbox" name="photography" value="photography" />
+                                </div>
+            				</div>
+            				<hr>
+            			</div>
+            			<div class="overflow-hidden">
+            				<h6 class="uppercase">
+            				2. What is your approximate budget?
+            				</h6>
+            				<div class="col-sm-4">
+            					<p>< $4,000</p>
+            					<div class="radio-option">
+									<div class="inner"></div>
+									<input type="radio" name="budget" value="under4k" />
+								</div>
+            				</div>
+            				<div class="col-sm-4">
+            					<p>$4,000 - $10,000</p>
+            					<div class="radio-option">
+									<div class="inner"></div>
+									<input type="radio" name="budget" value="4kup" />
+								</div>
+            				</div>
+            				<div class="col-sm-4">
+            					<p>$10,000+</p>
+            					<div class="radio-option">
+									<div class="inner"></div>
+									<input type="radio" name="budget" value="10kup" />
+								</div>
+            				</div>
+            				<hr>
+            			</div>
+            			<div class="overflow-hidden">
+            				<h6 class="uppercase">
+            				3. Your personal details
+            				</h6>
+            				<input type="text" name="name" class="col-md-6 validate-required" placeholder="Your Name*" />
+            				<input type="text" name="email" class="col-md-6 validate-required validate-email" placeholder="Your Email Address*" />
+            				<input type="text" name="website" placeholder="Your Current Website Address" />
+            				<textarea name="message" placeholder="Additional comments" rows="2"></textarea>
+            				<hr>
+            			</div>
+            			<div class="overflow-hidden">
+            				<div class="col-sm-6 col-sm-offset-3">
+								<h6 class="uppercase">
+								4. Lastly, how did you hear of us?
+								</h6>
+								<div class="select-option">
+									<i class="ti-angle-down"></i>
+									<select name="referrer">
+										<option selected value="Default">Select An Option</option>
+										<option value="google">Google</option>
+										<option value="website">Our Website</option>
+										<option value="friend">A Friend</option>
+										<option value="other">Other</option>
+									</select>
+								</div>
+								<button type="submit">Submit Planner</button>
+                            </div>
+            			</div>
+            		</form>
+            		</div>
+            	</div>
+            </section>
+           
+           
+            
+           
+            
+            
+            <footer class="footer-2 bg-dark pt0 pb40">
+                <div class="container">
+                    <div class="row">
+                        <hr class="mt0 mb40" />
+                    </div><!--end of row-->
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <a href="#"><img class="image-xxs fade-half" alt="Pic" src="https://res.cloudinary.com/mckshreder/image/upload/c_scale,q_100,w_579/v1439563517/yptmklyv0yxrqmqsaav5.png"></a>
+                        </div>
+                    
+                        <div class="col-sm-4 text-center">
+                            <span class="fade-half">
+                                © Copyright 2015 Mckshreder D & D - All Rights Reserved
+                            </span>
+                        </div>
+                    
+                        <div class="col-sm-4 text-right">
+                            <ul class="list-inline social-list">
+                                <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
+                                <li><a href="#"><i class="ti-facebook"></i></a></li>
+                                <li><a href="#"><i class="ti-dribbble"></i></a></li>
+                                <li><a href="#"><i class="ti-vimeo-alt"></i></a></li>
+                            </ul>
+                        </div>
+                    </div><!--end of row-->
+                </div><!--end of container-->
+                <!-- <a class="btn btn-sm fade-half back-to-top inner-link mb0" href="#top">Top</a> -->
+            </footer>
+        </div>
+        
+        <script src="../js/jquery.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/flickr.js"></script>
+        <script src="../js/flexslider.min.js"></script>
+        <script src="../js/lightbox.min.js"></script>
+        <script src="../js/masonry.min.js"></script>
+        <script src="../js/twitterfetcher.min.js"></script>
+        <script src="../js/spectragram.min.js"></script>
+        <script src="../js/ytplayer.min.js"></script>
+        <script src="../js/countdown.min.js"></script>
+        <script src="../js/smooth-scroll.min.js"></script>
+        <script src="../js/parallax.js"></script>
+        <script src="../js/scripts.js"></script>
+    
