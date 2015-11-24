@@ -18,7 +18,7 @@ Rails.application.routes.draw do
 
   get 'pages/skate'
 
-  get 'pages/35mm'
+  get 'pages/blp'
 
   get 'pages/food'
 

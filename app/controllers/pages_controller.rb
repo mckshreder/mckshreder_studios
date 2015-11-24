@@ -26,8 +26,8 @@ class PagesController < ApplicationController
   def skate
   end
 
-  # def 35mm
-  # end
+  def blp
+  end
 
   def food
   end
