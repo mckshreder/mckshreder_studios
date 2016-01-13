@@ -40,4 +40,10 @@ class PagesController < ApplicationController
 
   def inwholesalers
   end
+
+  def deltacodiaries
+  end
+
+  def thefootyapp
+  end
 end
